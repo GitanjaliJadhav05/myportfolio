@@ -108,7 +108,7 @@ text-shadow: 1px 1px 2px black;
 /* About Section */
 #about {
    
-    background-color: #25354a89;
+    background-color: #2b303761;
     padding: 40px 20px;
     display: flex;
     justify-content: center;
@@ -126,6 +126,8 @@ text-shadow: 1px 1px 2px black;
 #about .box2 h1 {
     font-size: 30px;
     margin-bottom: 20px;
+    margin-left: 70px;
+    color: #060607;
 }
 
 #about .box2 p {
@@ -139,7 +141,8 @@ text-shadow: 1px 1px 2px black;
 #about .box2 h3 {
     font-family: 'Trebuchet MS', Arial, sans-serif;
     margin-bottom: 20px;
-    color: white;
+    margin-left: 20px;
+    color: #5b0e8a;
 }
 
 /* Flex container for lists and image */
@@ -210,9 +213,10 @@ text-shadow: 1px 1px 2px black;
     width: 80%;
     padding: 20px;
     height: 800px;
-    /* border: 2px solid black; */
-
-    /* position: relative;  */
+    text-align: center;
+}
+#Resume .box3 h1{
+    margin-left: 80px;
 }
 
 #Resume .container1,
@@ -247,10 +251,10 @@ h3 {
 
 }
 
-#Resume .item p {
+/* #Resume .item p {
 
     color: #1a08a4;
-}
+} */
 
 ul {
     list-style: none;
@@ -281,13 +285,15 @@ ul li {
 .box4 {
     width: 80%;
     padding: 20px;
+    margin-top: 45px;
     box-sizing: border-box;
     margin-left: 300px;
 }
 
 .box4 h1 {
     font-size: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    text-align: center;
 }
 #contact .item {
     padding: 10px;
@@ -399,7 +405,7 @@ button:hover {
   
   .footer-section ul li {
     margin-bottom: 8px;
-    margin-left: 60px;
+    margin-left: 40px;
   }
   
   .footer-section ul li a {
@@ -415,9 +421,11 @@ button:hover {
   }
   
   .social-links li {
-    display: inline-block;
-    margin-right: 10px;
-    margin-left: 60px;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    margin-top: 30px;
+    margin-right: 100px;
   }
   
   .footer-bottom {
